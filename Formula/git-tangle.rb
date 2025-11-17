@@ -1,11 +1,11 @@
 class GitTangle < Formula
   desc "A branching workflow tool that untangles your repo"
   homepage "https://github.com/taygunsavas/git-tangle"
-  url "https://github.com/taygunsavas/git-tangle/releases/download/0.1.2/git-tangle_0.1.2.tar.gz"
-  sha256 "d32f38a6aaab54b8089cc02996adb8691f2dbdc7ec6e93312fe7274250b7758f"
+  url "https://github.com/taygunsavas/git-tangle/releases/download/0.1.3/git-tangle_0.1.3.tar.gz"
+  sha256 "c4f9a31aa64f680061f83e47febff0cc83eef4212a47871ca15a2991a5862492"
   license "MIT"
 
   def install
-    bin.install "git-tangle"
+    bin.install "bin/git-tangle"
   end
 end
